@@ -1,10 +1,11 @@
 ### S&P 500 Stock Price Prediction XAI Analysis
 
-This project implements and compares two Explainable AI (XAI) attribution methods, Integrated Gradients (IG) and Layer-wise Relevance Propagation (LRP), on an LSTM architecture. The model is trained to predict S&P 500 Daily OHLCV (Open, High, Low, Close, Volume) data, utilizing historical data spanning from December 1984 to May 2021.
+This project implements and compares two Explainable AI (XAI) attribution methods, Integrated Gradients (IG) and Layer-wise Relevance Propagation (LRP), on an LSTM architecture. The model is trained to predict S&P 500 Daily OHLCV (Open, High, Low, Close, Volume) data, utilising historical data spanning from December 1984 to May 2021.
 
 Model architecture: A multi-layer LSTM designed for sequential time-series forecasting. \
 Dataset: S&P 500 Daily OHLCV data sourced from https://github.com/Warren-Freeborough/Explainable-RNN/tree/main  
-To ensure the validity of the XAI interpretations, the model architecture was kept identical to the original study to allow for the direct application of the pre-trained weights sourced from the official repository.
+To ensure the validity of the XAI interpretations, the model architecture was kept identical to the original study (Freeborough & van
+Zyl, 2022) to allow for the direct application of the pre-trained weights sourced from the official repository.
 
 
 #### Requirements:
